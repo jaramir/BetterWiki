@@ -1,0 +1,63 @@
+body {
+    padding-top: 30px;
+}
+
+#menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+#menu .item {
+    float: left;
+    padding: 6px;
+    cursor: pointer;
+}
+
+#menu .item:hover {
+    background-color: #33F;
+}
+
+#menu .disabled {
+    color: #ccc;
+}
+
+#menu .disabled:hover {
+    background-color: transparent;
+}
+
+#menu .item#title {
+}
+
+#menu .item#search input {
+    border: 0;
+}
+
+#menu .item#heading select {
+    border: 0;
+}
+
+#menu .item#bold {
+    font-weight: bold;
+}
+
+#menu .item#italic {
+    font-style: italic;
+}
+
+#menu .item#underline {
+    text-decoration: underline;
+}
+
+#menu .item#pre {
+    font-family: courier;
+}
+
+#menu .item#save {
+    float: right;
+}
+

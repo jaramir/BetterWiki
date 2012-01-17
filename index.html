@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FrontPage</title>
+    <link rel="stylesheet" media="screen" href="style.css" >
+  </head>
+  <body>
+    <div id="menu">
+        <div class="item" id="title">FrontPage</div>
+        <div class="item" id="search"><input type="text" value=""/><input type="button" value="Search"/></div>
+        <div class="item" id="bold">B</div>
+        <div class="item" id="italic">I</div>
+        <div class="item" id="underline">U</div>
+        <div class="item" id="heading">
+            <select>
+                <option>H1</option>
+                <option>H2</option>
+                <option>H3</option>
+                <option>H4</option>
+                <option>H5</option>
+                <option>H6</option>
+            </select>
+        </div>
+        <div class="item" id="link">Link</div>
+        <div class="item" id="list">List</div>
+        <div class="item" id="table">Table</div>
+        <div class="item" id="pre">Pre</div>
+        <div class="item" id="image">Image</div>
+        <div class="item disabled" id="save">Save</div>
+    </div>
+    <div id="content" contenteditable="true">
+        <h1>Hello there!</h1>
+        <p>This is the <a href="/FrontPage">FrontPage</a> of 
+            <a href="/BetterWiki">BetterWiki</a>.</p>
+        <p>We hope you will enjoy your stay!</p>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="main.js">
+    </script>
+  </body>
+</html>
