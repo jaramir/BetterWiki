@@ -6,13 +6,11 @@ TODO
 
 * finish this README
 * UI
- * Top (BIU) button are modal?
  * Undo/Redo & Replay History
  * Save & Merge
  * View Revisions, Compare, Restore
  * Search
 * write some code
-
 
 WHAT
 ----

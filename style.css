@@ -1,5 +1,12 @@
 body {
-    padding-top: 30px;
+    margin: 0;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+div[contenteditable] {
+    outline: 0;
 }
 
 #menu {
@@ -8,56 +15,76 @@ body {
     left: 0px;
     right: 0px;
     padding: 0px;
-    background-color: black;
-    color: white;
+    background-color: #aaa;
+    color: black;
+    height: 2em;
+    overflow: hidden;
 }
 
-#menu .item {
+/*
+ * item rules
+ */
+ 
+.item {
     float: left;
     padding: 6px;
     cursor: pointer;
+    min-width: 10px;
+    text-align: center;
 }
 
-#menu .item:hover {
-    background-color: #33F;
+.item:hover {
+    background-color: #ff3;
 }
 
-#menu .disabled {
-    color: #ccc;
+.item.disabled {
+    color: #fff;
 }
 
-#menu .disabled:hover {
+.item.disabled:hover {
     background-color: transparent;
 }
 
-#menu .item#title {
+.item.active {
+    background-color: #666;
 }
 
-#menu .item#search input {
+.item.active:hover {
+    background-color: #ee3;
+}
+
+/*
+ * item specific rules
+ */
+
+.item#title {
+}
+
+.item#search input {
     border: 0;
 }
 
-#menu .item#heading select {
+.item#heading select {
     border: 0;
 }
 
-#menu .item#bold {
+.item#bold {
     font-weight: bold;
 }
 
-#menu .item#italic {
+.item#italic {
     font-style: italic;
 }
 
-#menu .item#underline {
+.item#underline {
     text-decoration: underline;
 }
 
-#menu .item#pre {
+.item#pre {
     font-family: courier;
 }
 
-#menu .item#save {
+.item#save {
     float: right;
 }
 
