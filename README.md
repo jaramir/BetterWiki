@@ -10,6 +10,7 @@ TODO
  * Save & Merge
  * View Revisions, Compare, Restore
  * Search
+* manage keyboard shortcut (space for scrolling, ctrl-t for new tab) thanks Daniele
 * write some code
 
 WHAT
